@@ -36,8 +36,8 @@ const defaultItems=[item1, item2, item3];
 
 const listSchema={
   name: String,
-  items: [itemSchema];
-}
+  items: [itemSchema]
+};
 
 const List=mongoose.model("List", listSchema);
 
