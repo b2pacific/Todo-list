@@ -75,7 +75,7 @@ app.post("/", function(req, res){
 
   const item=new Item({
     name: itemName
-  })
+  });
 
   if(listName === "Today")
   {
